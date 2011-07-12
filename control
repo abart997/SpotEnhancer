@@ -1,0 +1,9 @@
+Package: com.abart997.spotenhancer
+Name: SpotEnhancer
+Depends: mobilesubstrate
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Add features to your Spotlight
+Maintainer: Andrea Oliva
+Author: Andrea Oliva
+Section: Tweaks
