@@ -92,6 +92,20 @@ if([text isEqualToString:@"Bing"]) {
 
 }
 
+if([text isEqualToString:@"Respring"]){
+[[UIApplication sharedApplication] relaunchSpringBoard];
+ 
+ }
+
+if([text isEqualToString:@"Power off"]){
+[[UIApplication sharedApplication] _powerDownNow];
+}
+
+if([text isEqualToString:@"Reboot"]){
+[[UIApplication sharedApplication] _rebootNow];
+}
+
+
 
 if([text isEqualToString:@"Twitter user"]) {
 
@@ -106,11 +120,8 @@ UIAlertView *alertTwitter = [[UIAlertView alloc]initWithTitle:@"Twitter user" me
  [alertTwitter show];
  [alertTwitter release];
 
- 
  }
- 
- }
- 
+} 
  
 %new(v@:@@)
   
